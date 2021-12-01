@@ -1,12 +1,12 @@
 import React from "react";
-import Text from "./components/Text";
-import Button from "@mui/material/Button";
+// button
+import Buttons from "./components/Button";
 
 function App() {
   return (
     <div>
-      <Text />
-      <Button variant="contained">Hello World</Button>
+      {/* <Text /> */}
+      <Buttons />
     </div>
   );
 }
