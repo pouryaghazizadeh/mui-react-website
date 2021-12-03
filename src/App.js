@@ -1,12 +1,13 @@
 import React from "react";
-// button
-import Buttons from "./components/Button";
-
+import Inputs from "./components/Inputs";
 function App() {
   return (
     <div>
       {/* <Text /> */}
-      <Buttons />
+      {/* <Buttons /> */}
+      {/* < Icons/> */}
+      <Inputs/>
+
     </div>
   );
 }
