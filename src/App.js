@@ -1,15 +1,15 @@
 import React from "react";
-import Inputs from "./components/Inputs";
-import Grids from "./components/Grids";
+import Navbar from "./components/Navbar";
 function App() {
   return (
     <div>
+      <Navbar/>
       {/* <Text /> */}
       {/* <Buttons /> */}
       {/* < Icons/> */}
       {/* <Inputs/> */}
-      <Grids/>
-
+      {/* <Grids/> */}
+      
     </div>
   );
 }
